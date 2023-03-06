@@ -7,7 +7,7 @@
 - Charles
 - Mobile testing
 
- `$ git clone git@github.com:ItGroupAlex/branch.git` - clone peros.  
+ `$ git clone git@github.com:ItGroupAlex/Branches.git` - clone repos.  
  `$ git branch Postman` - create branch Postman   
  `$ git branch Jmeter` - create branch Jmeter   
  `$ git branch CheckLists` - create branch CheckLists   
@@ -61,5 +61,11 @@
 `$ git commit -m "Create json"`  
 `$ git push`
 
-11. На внешнем репозитории сделать Pull Request ветки CheckLists в main
-12. Синхронизировать Внешнюю и Локальную ветки Main
+9. На внешнем репозитории сделать Pull Request ветки CheckLists в main  
+
+- Переходим на внешний репозиторий GitHUB "Branches" и нажимаем Pull Request  
+- Принимаем измения добавив commit  
+
+10. Синхронизировать Внешнюю и Локальную ветки Main
+
+ `$ git pull` - synchron repos.
