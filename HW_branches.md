@@ -68,4 +68,4 @@
 
 10. Синхронизировать Внешнюю и Локальную ветки Main
 
- `$ git pull` - synchron repos.
+ `$ git clone git@github.com:ItGroupAlex/Branches.git`
