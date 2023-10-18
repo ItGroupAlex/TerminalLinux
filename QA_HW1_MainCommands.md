@@ -5,9 +5,7 @@
 5) Зайти в папку  
   `$ cd foldername`  
 7) Создать 3 папки  
-        `$ mkdir folder1`  
-				`$ mkdir folder2`  
-				`$ mkdir folder3`  
+        `$ mkdir folder1 folder2 folder3`  
 5) Зайти в любоую папку  
    `cd folder1`
 
@@ -24,9 +22,8 @@
 9) 	Открыть любой txt файл  
 				`$ vim jsonfile.json`  
 10)  Написать туда что-нибудь, любой текст.  
-				```i  
-				1111  
-				Hello world!```  
+	`i`    
+	`Hello world!`  
 11)	 Сохранить и выйти.	<Esc>  
 				`:wq`	  
 12) Выйти из папки на уровень выше  
