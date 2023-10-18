@@ -8,7 +8,12 @@
         `$ mkdir folder1`  
 				`$ mkdir folder2`  
 				`$ mkdir folder3`  
-5) Зайти в любоую папку	- cd folder1  
+5) Зайти в любоую папку  
+   `cd folder1`
+
+
+
+
 6) Создать 5 файлов (3 txt, 2 json)  
 				`$ touch file1.txt`  
 				`$ touch file2.txt`  
