@@ -15,14 +15,10 @@
 
 
 6) Создать 5 файлов (3 txt, 2 json)  
-				`$ touch file1.txt`  
-				`$ touch file2.txt`  
-				`$ touch file3.txt`  
-				`$ touch jsonfile1.json`  
-				`$ touch jsonfile2.json`  
-7)	Создать 3 папки		- mkdir folder4  
-				`$ mkdir folder5`  
-				`$ mkdir folder6`  
+				`$ touch file1.txt file2.txt file3.txt jsonfile1.json jsonfile2.json`  
+7)	Создать 3 папки   
+`$ mkdir folder4 folder5 folder6`  
+ 
 8) 	Вывести список содержимого папки  
 				`$ ls -l`  
 9) 	Открыть любой txt файл  
@@ -60,7 +56,7 @@
 				End - последняя строка  
 				home - первая строка  
 				q -выход  
-21) вывести дату и время  
+20) вывести дату и время  
         `$ date`  
   
 
