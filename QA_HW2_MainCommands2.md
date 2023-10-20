@@ -138,5 +138,5 @@ the seConD 2`
 
 Найти и удалить строку mail@mail.com  
 `grep -v "mail@mail.com" file.txt > temp.txt | mv temp.txt file.txt`  
-Найти и удалить строку mail@mail.com по всех папках рекурсивно
+Найти и удалить строку mail@mail.com по всех папках рекурсивно  
 `find . -type f -exec sed -i  '/mail@mail.ru/d' {} \;`
