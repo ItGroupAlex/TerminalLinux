@@ -13,4 +13,4 @@ $ git push -u origin master
 
 * EXAMPLE - название репозитория  
 * USER - ваш логин на гитхабе  
-* TOKEN - токен типа ghp_6QmGnnIlTmk5udc8YoVXCNENki1y0jwK32 сгенерированый в разделе https://github.com/settings/tokens  
+* TOKEN - токен типа ghp_6QmGnnIlTmk5udc8YoVXCNENk1y0jwK32 сгенерированый в разделе https://github.com/settings/tokens  
