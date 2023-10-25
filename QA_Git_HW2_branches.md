@@ -71,13 +71,4 @@
  `$ git clone git@github.com:ItGroupAlex/Branches.git`
 
 
- 
-# Доп.команды  
 
-`$ git reset file1.txt` - исключить из отправленных в "add" (до commit)  
-`$ git cat > .gitignore` - добавление текстового файла со списком файлов не подлежащих передаче на GitHUB  
-`$ git commit --amend -m "Комментарий"` - добавление доп.файлов в commit и изменение комментария  
-`$ mv file.txt ../file.txt` - убрать файл из commit  
-`$ git restore file1.txt` - восстановить версию файла прошлого commit (до того как файл добавлен в add)   
-`$ rm -rf ../clone_dir` - удалить папку локально склонированного депозитория     
-`$ git push origin --delete New_branch` - удаление ветки "New_branch"  
