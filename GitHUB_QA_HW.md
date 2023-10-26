@@ -1,3 +1,5 @@
+<p align="center"><img src="AliakseiKhamchanouski_Git.png"></p>
+
 ## GIT Homework 1
 
 Все шаги сценария выполняются в GitBush Terminal, в папке под гитом.
