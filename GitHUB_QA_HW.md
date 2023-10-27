@@ -16,25 +16,29 @@
  
 # Доп.команды  
 
-*gitignore*  
+* *gitignore*  
 `$ git cat > .gitignore` - добавление текстового файла со списком файлов и папок не подлежащих передаче на GitHUB  
 
-*reset*  
+* *reset*  
 `$ git reset file1.txt` - исключить из отправленных в "add" (до commit)  
 
-*restore*  
+* *restore*  
 `$ git restore file1.txt` - восстановить версию файла прошлого commit (до того как файл добавлен в add)  
 `$ git restore --staged file1.txt` - -//- (после того как файл добавлен в add)   
 
-*commit (closed)*  
+* *commit (closed)*  
 `$ git commit --amend -m "Комментарий"` - добавление доп.файлов в commit и/или изменение комментария  
 `$ mkdir ../temp && mv file1.txt ../temp/file1.txt` -  удаление файлов из commit 
 
-*delete*  
+* *delete*  
 `$ git push origin --delete New_branch` - удаление ветки "New_branch"  
   
-  
-*repository*  
+* *fetch/merge/pull*  
+`$ git fetch` - собирает все коммиты из целевой ветки, которых нет в текущей ветке, и сохраняет их в локальном репозитории. Однако он не сливает их в текущую ветку.   
+`$ fetch` - сливает эти коммиты в основную ветвь.   
+`$ git pull` — это шоткод для последовательности двух команд: git fetch (получение изменений с сервера) и git merge (сливание в локальную копию).  
+
+* *repository*  
 ```
 $ mkdir EXAMPLE   
 $ cd EXAMPLE  
@@ -46,6 +50,6 @@ $ git remote add origin git@github.com:USER/EXAMPLE.git
 $ curl -u 'USER:TOKEN' https://api.github.com/user/repos -d '{"name":"EXAMPLE"}'  
 $ git push -u origin master
 ```
-* EXAMPLE - название репозитория  
-* USER - ваш логин на гитхабе  
-* TOKEN - токен типа ghp_6QmGnnIlTmk5udc8YoVXCNENk1y0jwK32 сгенерированый в разделе https://github.com/settings/tokens  
+EXAMPLE - название репозитория  
+USER - ваш логин на гитхабе  
+TOKEN - токен типа ghp_6QmGnnIlTmk5udc8YoVXCNENk1y0jwK32 сгенерированый в разделе https://github.com/settings/tokens  
