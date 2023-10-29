@@ -28,7 +28,8 @@
 
 * *commit (closed)*  
 `$ git commit --amend -m "Комментарий"` - добавление доп.файлов в commit и/или изменение комментария  
-`$ mkdir ../temp && mv file1.txt ../temp/file1.txt` -  удаление файлов из commit 
+`$ mkdir ../temp && mv file1.txt ../temp/file1.txt` -  удаление файлов из commit  
+`$ git commit -am "Комментарий"` -  добавление измененного файла уже отправленого в commit  
 
 * *delete*  
 `$ git push origin --delete New_branch` - удаление ветки "New_branch"  
